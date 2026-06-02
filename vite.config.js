@@ -6,11 +6,6 @@ export default defineConfig({
   base: '/issues-tracker/',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
-    sourcemap: false,
-    minify: 'terser'
-  },
-  server: {
-    middlewareMode: true
+    assetsDir: 'assets'
   }
 })
